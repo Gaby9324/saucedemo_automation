@@ -1,0 +1,6 @@
+   - El flujo E2E se automatizó exitosamente con Selenium WebDriver.
+   - Se recomienda agregar:
+     * Pruebas de campos inválidos en el formulario.
+     * Validación de monto total vs. items seleccionados.
+     * Integración con CI/CD (Jenkins/GitHub Actions).
+     
