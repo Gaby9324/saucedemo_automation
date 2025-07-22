@@ -1,11 +1,26 @@
-1. INSTALACIÓN:
-   - Python 3.8+ y pip instalados.
-   - Ejecutar: pip install -r requirements.txt
-   - Tener Chrome/Firefox instalado.
+INSTRUCCIONES PARA EJECUTAR LAS PRUEBAS:
 
-2. EJECUCIÓN:
-   - Ejecutar el test: pytest c:/Users/USER/Documents/GitHub/saucedemo_automation/tests/test_flujo_compra.py -v --html=reports/report.html
+1. Requisitos previos:
+   - Java JDK 8 o superior instalado
+   - Maven instalado
+   - Variables de entorno JAVA_HOME y MAVEN_HOME configuradas
 
-3. CONFIGURACIÓN:
-   - Editar credenciales en conftest.py si es necesario.
-   - Ajustar waits en test_flujo_compra.py según velocidad de red.
+2. Clonar o descomprimir el proyecto
+
+3. Ejecutar las pruebas:
+   - Abrir terminal en la raíz del proyecto
+   - Ejecutar el comando: mvn test
+
+4. Ver reportes:
+   - Después de la ejecución, los reportes estarán disponibles en:
+     target/karate-reports/karate-summary.html
+   - Abrir este archivo en un navegador web
+
+5. Estructura de pruebas:
+   - Las pruebas se encuentran en: src/test/resources/features/user_management.feature
+
+
+6. Configuración:
+   - La URL base está configurada en karate-config.js
+   - Los headers por defecto se configuran en el Background del feature
+

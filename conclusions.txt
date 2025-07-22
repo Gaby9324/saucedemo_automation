@@ -1,0 +1,21 @@
+HALLAZGOS Y CONCLUSIONES:
+
+1. Funcionalidad probada:
+   - Se validó exitosamente el ciclo completo CRUD para el endpoint /user de PetStore API
+   - Todos los escenarios pasaron satisfactoriamente
+
+2. Observaciones:
+   - El API responde consistentemente a las solicitudes
+   - El tiempo de respuesta fue aceptable en todas las pruebas
+   - El código de estado 200 se recibe en todas las operaciones exitosas
+   - La búsqueda de usuario eliminado correctamente devuelve 404
+
+3. Conclusiones:
+   - El API de PetStore para manejo de usuarios funciona según lo esperado
+   - Karate demostró ser una herramienta efectiva para pruebas de API REST
+   - El enfoque BDD con Karate permite pruebas legibles y mantenibles
+
+4. Recomendaciones:
+   - Implementar pruebas adicionales para otros endpoints
+   - Considerar agregar autenticación si el API la requiere
+   - Configurar CI/CD para ejecución automática de pruebas
